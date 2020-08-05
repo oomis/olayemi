@@ -115,6 +115,8 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    devise-token_authenticatable (1.1.0)
+      devise (>= 4.0.0, < 5.0.0)
     devise_masquerade (1.2.0)
       devise (>= 4.7.0)
       railties (>= 5.2.0)
@@ -328,6 +330,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   devise (~> 4.7, >= 4.7.0)
   devise-bootstrapped!
+  devise-token_authenticatable
   devise_masquerade (~> 1.2)
   font-awesome-sass (~> 5.13)
   friendly_id (~> 5.3)
